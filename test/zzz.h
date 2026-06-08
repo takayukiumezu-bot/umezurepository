@@ -1,3 +1,5 @@
 int32_t hoge=0;
+int32_t piyo=0;
 hoge = hoge+1;
-return hoge;
+piyo = hoge+hoge;
+return piyo;
